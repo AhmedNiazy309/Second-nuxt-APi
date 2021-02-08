@@ -1,10 +1,11 @@
 <template>
   <post-form></post-form>
-</template>  
+</template>
 
 <script>
 import PostForm from "@/components/admin/post-form"
 export default {
+    middleware: 'authenticated',
   components: {
     PostForm
   }

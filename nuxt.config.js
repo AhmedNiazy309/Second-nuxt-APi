@@ -1,6 +1,7 @@
 import colors from "vuetify/es5/util/colors";
 import { resolve } from 'path'
 export default {
+  ssr: false,
   /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode

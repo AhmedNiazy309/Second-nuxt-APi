@@ -14,6 +14,7 @@
 import PostCard from "../../components/post-card.vue";
 
 export default {
+    middleware: 'authenticated',
   components: {
     PostCard
   },

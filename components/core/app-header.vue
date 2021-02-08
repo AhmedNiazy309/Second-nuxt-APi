@@ -19,7 +19,7 @@ export default {
       items: [
         {
           title: "Home",
-          to: "/"
+          to: "/home"
 
         },
         {

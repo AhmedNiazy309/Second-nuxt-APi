@@ -8,6 +8,7 @@
 
 <script>
 export default {
+    middleware: 'authenticated',
   head(){
     return {
       title: this.$store.state.selectedPost.title,
